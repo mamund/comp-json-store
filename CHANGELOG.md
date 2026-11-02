@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0 — 2026-11-02
+
+First stable release. No runtime changes from `0.1.0-rc.1`.
+
 ## 0.1.0-rc.1 — 2026-11-02
 
 Initial release candidate.

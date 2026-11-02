@@ -1,7 +1,7 @@
 # Compensated JSON Store
 
 A standalone, dependency-free Node.js JSON document store with a committed
-operation journal and explicit compensation. **v0.1 release candidate.**
+operation journal and explicit compensation. **v0.1 stable release.**
 
 Requires Node.js 20+ and a local filesystem. Tested on Linux. Use **one
 `JsonStore` instance in one Node.js process per storage directory**. This
@@ -143,5 +143,5 @@ npm run test:consumer
 
 ## Release status
 
-This is the `@mamund/comp-json-store` v0.1 release candidate, licensed under MIT.
+This is the `@mamund/comp-json-store` v0.1 stable release, licensed under MIT.
 See `CHANGELOG.md` for release notes and the [GitHub repository](https://github.com/mamund/comp-json-store) for source and issues.
