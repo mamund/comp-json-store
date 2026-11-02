@@ -1,0 +1,31 @@
+{
+  "name": "compensated-json-store",
+  "version": "0.1.0-rc.1",
+  "description": "Local JSON document store with journaled, compensable operations",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./helpers/set-fields": "./src/helpers/set-fields.mjs"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "test:consumer": "node scripts/consumer-smoke.mjs"
+  },
+  "keywords": [
+    "json",
+    "store",
+    "compensation",
+    "saga",
+    "journal"
+  ]
+}
