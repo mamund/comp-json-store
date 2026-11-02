@@ -1,5 +1,5 @@
 {
-  "name": "compensated-json-store",
+  "name": "@mamund/comp-json-store",
   "version": "0.1.0-rc.1",
   "description": "Local JSON document store with journaled, compensable operations",
   "type": "module",
@@ -27,5 +27,17 @@
     "compensation",
     "saga",
     "journal"
-  ]
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamund/comp-json-store.git"
+  },
+  "homepage": "https://github.com/mamund/comp-json-store#readme",
+  "bugs": {
+    "url": "https://github.com/mamund/comp-json-store/issues"
+  }
 }

@@ -16,8 +16,8 @@ try {
   execFileSync('npm', ['install', '--ignore-scripts', '--no-audit', '--no-fund',
     join(work, tarball)], { cwd: consumer, stdio: 'pipe' });
   const script = `
-    import { JsonStore, StoreError } from 'compensated-json-store';
-    import { setFields, compensateFields, PartialSetFieldsError } from 'compensated-json-store/helpers/set-fields';
+    import { JsonStore, StoreError } from '@mamund/comp-json-store';
+    import { setFields, compensateFields, PartialSetFieldsError } from '@mamund/comp-json-store/helpers/set-fields';
     import { mkdtemp } from 'node:fs/promises';
     import { tmpdir } from 'node:os';
     import { join } from 'node:path';

@@ -15,7 +15,7 @@ production data without further validation.
 After publication:
 
 ```sh
-npm install compensated-json-store
+npm install @mamund/comp-json-store
 ```
 
 Before publication, test with `npm pack` and install the resulting tarball.
@@ -23,7 +23,7 @@ Before publication, test with `npm pack` and install the resulting tarball.
 ## Quick start
 
 ```js
-import { JsonStore } from 'compensated-json-store';
+import { JsonStore } from '@mamund/comp-json-store';
 
 const store = new JsonStore('./local-store');
 await store.open();
@@ -78,7 +78,7 @@ await store.query('customers', new URLSearchParams('name=ali&status=active'));
 ```js
 import {
   setFields, compensateFields, PartialSetFieldsError
-} from 'compensated-json-store/helpers/set-fields';
+} from '@mamund/comp-json-store/helpers/set-fields';
 
 let operations;
 try {
@@ -143,5 +143,5 @@ npm run test:consumer
 
 ## Release status
 
-This is a v0.1 release candidate. Licensing and npm package-name ownership
-must be confirmed before publication. See `CHANGELOG.md`.
+This is the `@mamund/comp-json-store` v0.1 release candidate, licensed under MIT.
+See `CHANGELOG.md` for release notes and the [GitHub repository](https://github.com/mamund/comp-json-store) for source and issues.
